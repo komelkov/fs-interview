@@ -31,4 +31,4 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/test', TestController::class);
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
